@@ -2,7 +2,7 @@
   # 1. Install dependencies from requirements.txt
   # 2. Run 'flet publish' to build the static site (default entry is main.py)
   command = '''
-    pip install flet --no-input --quiet;
+    yes | pip install flet --no-input --quiet --exists-action i;
     python -m pip install --upgrade pip;
     flet build web;
   '''

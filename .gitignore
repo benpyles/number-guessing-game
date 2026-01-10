@@ -8,11 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/.hash/
-build/flutter/
+build/
 .venv
 develop-eggs/
-dist/
+# dist/
 downloads/
 eggs/
 .eggs/
@@ -163,7 +162,3 @@ cython_debug/
 
 # Flet
 storage/
-
-#Adding so i can do builds localy and deploy on netlify
-#(allow web subfoler of build to be commited)
-!build/web/

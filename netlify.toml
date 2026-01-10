@@ -1,0 +1,11 @@
+[build]
+  # 1. Install dependencies from requirements.txt
+  # 2. Run 'flet publish' to build the static site (default entry is main.py)
+  command = "pip install -r requirements.txt && flet publish main.py"
+
+  # The directory where flet puts the built files
+  publish = "dist"
+
+[build.environment]
+  # Optional: Pin the Python version to ensure stability
+  PYTHON_VERSION = "3.9"

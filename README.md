@@ -1,6 +1,6 @@
 # Guessinggame app
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3395f3c4-f2a5-4ed8-a34b-1c593af36164/deploy-status)](https://app.netlify.com/projects/melodious-palmier-33f2ae/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3395f3c4-f2a5-4ed8-a34b-1c593af36164/deploy-status)](https://app.netlify.com/projects/higher-or-lower-ben/deploys)
 
 Preview at https://higher-or-lower-ben.netlify.app/
 

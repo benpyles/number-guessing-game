@@ -1,7 +1,10 @@
 [build]
   # 1. Install dependencies from requirements.txt
   # 2. Run 'flet publish' to build the static site (default entry is main.py)
-  command = "echo 'Done'"
+  command = '''
+  pwd;
+  ls -al;
+  '''
 
   # The directory where flet puts the built files
   publish = "build/web"

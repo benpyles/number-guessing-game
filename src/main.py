@@ -33,18 +33,22 @@ def main(page: ft.Page):
         alignment=ft.MainAxisAlignment.CENTER,
     )
 
-    def reset():
-        nonlocal random_number, attempts
-        random_number = random.randint(1,10)
-        attempts = 0
-
-    reset_button = ft.ElevatedButton("Reset", on_click=lambda e: reset())
-
     result = ft.Text(
         "Ready? Set! Guess!",
         size=15,
         color='#ffffff'
     )
+
+    def reset():
+        nonlocal random_number, attempts
+        random_number = random.randint(1,10)
+        result.value = "Reset!"
+        result.color = "#ffffff"
+        attempts = 0
+
+    reset_button = ft.ElevatedButton("Reset", on_click=lambda e: reset())
+
+
 
     def check_guess(number):
         nonlocal random_number, attempts
